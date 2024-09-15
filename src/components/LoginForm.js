@@ -29,6 +29,7 @@ function LoginForm({ login }) {
 
       <TextField
         id="password"
+        name="password"
         placeholder="Masukkan Password"
         size="small"
         onChange={onChangePassword}
