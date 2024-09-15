@@ -36,7 +36,7 @@ function ThreadItem({
     if (authUser) {
       like(id);
     } else {
-      alert("Please log in to upvote.");
+      alert("Please log in to UpVote thread.");
     }
   };
 
@@ -44,7 +44,7 @@ function ThreadItem({
     if (authUser) {
       dislike(id);
     } else {
-      alert("Please log in to downvote.");
+      alert("Please log in to DownVote Thread.");
     }
   };
 

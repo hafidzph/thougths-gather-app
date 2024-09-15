@@ -27,7 +27,7 @@ function CommentItem({
     if (authUser) {
       like({ commentId: id });
     } else {
-      alert("Please log in to upvote.");
+      alert("Please log in to UpVote Thread.");
     }
   };
 
@@ -35,7 +35,7 @@ function CommentItem({
     if (authUser) {
       dislike({ commentId: id });
     } else {
-      alert("Please log in to downvote.");
+      alert("Please log in to DownVote Thread.");
     }
   };
 
